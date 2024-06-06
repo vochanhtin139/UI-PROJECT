@@ -6,9 +6,11 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
+      {/* <Routes>
         <Route path='/' element={<Navbar />} />
-      </Routes>
+      </Routes> */}
+
+      <Navbar />
     </BrowserRouter>
   )
 }

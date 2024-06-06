@@ -1,4 +1,4 @@
-import React, { act, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { logo, menu, close } from "../assets/index";
@@ -25,7 +25,7 @@ function Navbar() {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      } w-full flex items-center py-5 top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
